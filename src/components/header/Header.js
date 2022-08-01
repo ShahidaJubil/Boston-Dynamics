@@ -17,24 +17,9 @@ function Header() {
     <>
       <Link to="/" >Boston Dynamics</Link> &nbsp;
 
-      <FormControl sx={{ m: 1, minWidth: 120 }}>
-        <InputLabel id="demo-simple-select-standard-label">Company</InputLabel>
-        <Select
-          labelId="demo-simple-select-standard-label"
-          id="demo-simple-select-standard"
-          value={age}
-          onChange={handleChange}
-          label="Age"
-        >
-          <MenuItem><Link to="/about" >About</Link></MenuItem>
-          <MenuItem><Link to="/careers" >Careers</Link></MenuItem>
-          <MenuItem><Link to="/ethics" >Ethics</Link></MenuItem>
-          <MenuItem><Link to="/news" >News</Link></MenuItem> 
-        </Select>
-      </FormControl> &nbsp;
-
+      
       <FormControl  sx={{ m: 1, minWidth: 120 }}>
-        <InputLabel id="demo-simple-select-standard-label">Product</InputLabel>
+        <InputLabel id="demo-simple-select-standard-label">Products</InputLabel>
         <Select
           labelId="demo-simple-select-standard-label"
           id="demo-simple-select-standard"
@@ -58,9 +43,8 @@ function Header() {
         </Select>
       </FormControl> &nbsp;
 
-
       <FormControl  sx={{ m: 1, minWidth: 120 }}>
-        <InputLabel id="demo-simple-select-standard-label">Research</InputLabel>
+        <InputLabel id="demo-simple-select-standard-label">Solutions</InputLabel>
         <Select
           labelId="demo-simple-select-standard-label"
           id="demo-simple-select-standard"
@@ -68,8 +52,13 @@ function Header() {
           onChange={handleChange}
           label="Age"
         >
-          <MenuItem><Link to="/atlas" >Atlas</Link></MenuItem>
-          <MenuItem><Link to="/legacyrobot" >Legacy Robot</Link></MenuItem> 
+          <MenuItem><Link to="/assetmanagement" >Asset Management</Link></MenuItem>
+          <MenuItem><Link to="/construction" >Construction</Link></MenuItem>
+          <MenuItem><Link to="/inspection" >Inspection</Link></MenuItem>
+          <MenuItem><Link to="/manufacturing" >Manufacturing</Link></MenuItem>
+          <MenuItem><Link to="/powerandutilities" >Power and Utilities</Link></MenuItem>
+          <MenuItem><Link to="/publicsafety" >Public Safety</Link></MenuItem>
+          <MenuItem><Link to="/warehouseautomation" >Warehouse Automation</Link></MenuItem> 
         </Select>
       </FormControl> &nbsp;
 
@@ -92,7 +81,7 @@ function Header() {
       </FormControl> &nbsp;
 
       <FormControl  sx={{ m: 1, minWidth: 120 }}>
-        <InputLabel id="demo-simple-select-standard-label">Solutions</InputLabel>
+        <InputLabel id="demo-simple-select-standard-label">Research</InputLabel>
         <Select
           labelId="demo-simple-select-standard-label"
           id="demo-simple-select-standard"
@@ -100,15 +89,34 @@ function Header() {
           onChange={handleChange}
           label="Age"
         >
-          <MenuItem><Link to="/assetmanagement" >Asset Management</Link></MenuItem>
-          <MenuItem><Link to="/construction" >Construction</Link></MenuItem>
-          <MenuItem><Link to="/inspection" >Inspection</Link></MenuItem>
-          <MenuItem><Link to="/manufacturing" >Manufacturing</Link></MenuItem>
-          <MenuItem><Link to="/powerandutilities" >Power and Utilities</Link></MenuItem>
-          <MenuItem><Link to="/publicsafety" >Public Safety</Link></MenuItem>
-          <MenuItem><Link to="/warehouseautomation" >Warehouse Automation</Link></MenuItem> 
+          <MenuItem><Link to="/atlas" >Atlas</Link></MenuItem>
+          <MenuItem><Link to="/legacyrobot" >Legacy Robot</Link></MenuItem> 
         </Select>
       </FormControl> &nbsp;
+
+
+      <FormControl sx={{ m: 1, minWidth: 120 }}>
+        <InputLabel id="demo-simple-select-standard-label">Company</InputLabel>
+        <Select
+          labelId="demo-simple-select-standard-label"
+          id="demo-simple-select-standard"
+          value={age}
+          onChange={handleChange}
+          label="Age"
+        >
+          <MenuItem><Link to="/about" >About</Link></MenuItem>
+          <MenuItem><Link to="/careers" >Careers</Link></MenuItem>
+          <MenuItem><Link to="/ethics" >Ethics</Link></MenuItem>
+          <MenuItem><Link to="/news" >News</Link></MenuItem> 
+        </Select>
+      </FormControl> &nbsp;
+
+
+
+    
+    
+
+     
 
       <Link to="/contact" >Contact Us</Link> &nbsp;
     </>
