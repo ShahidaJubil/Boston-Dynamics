@@ -1,0 +1,128 @@
+#fourthdiv{background:url(https://www.bostondynamics.com/themes/custom/isovera/images/solution-features-background.png)}
+#fourthslidegrid{background-color: white;
+    margin: 60px;
+    border-top-left-radius:13px;
+    border-top-right-radius:13px;
+    border-bottom-left-radius:13px;
+    border-bottom-right-radius:13px;
+    width: 1130px;
+    padding-top: 16px;
+}
+.fourthgriditem{box-shadow: none !important;}
+.grid4img, .grid4img2{width: 520px;
+    border-top-left-radius:13px;
+    border-top-right-radius:13px;
+    border-bottom-left-radius:13px;
+    border-bottom-right-radius:13px;
+}
+#fourthdivtitle{color: white;padding-top: 50px; font-family:  'Roboto', sans-serif !important;
+    font-weight: 100;font-size: 50px;letter-spacing: 4px;
+}
+.grid4subtitle{color: #00355A;margin-left: -180px;font-weight: 700;font-size: 20px;
+        padding-top: 20px;
+}
+.grid4p{color: #00355A;width: 400px !important;font-size: 18px;
+        text-align: left;margin-left: 70px;
+        padding-bottom: 60px;
+}
+.grid4img2{margin-left: -20px;}
+.grid4img{margin-left: 20px;}
+#robotsbutton{color: white;border:2px solid white !important;
+    font-size: 17px;width: 480px ;
+    margin-bottom: 70px;border-radius: 8px;
+ }
+ #robotsbutton:hover{background-color: white;color: #335D7B;}
+ #grid4p2{margin-left: 60px;width: 380px;}
+ #grid4subtitle2{margin-left: -210px !important;}
+ #grid4p2{margin-left: 50px !important;}
+ #grid4p3{margin-left: 75px !important;}
+ #subt4{margin-left: -240px !important;}
+ #fourthdivrespo{display: none !important;}
+
+ /*----------------------------------slidesupport--------div5----------------------*/
+#linebg{position: relative;}
+#fifthdivtitle{color: #00355A;font-weight: 100;font-family: 'Roboto', sans-serif;font-size: 45px;
+        margin-top: -160px;margin-bottom: -70px;
+}
+.fifthgriditem{box-shadow: none !important;font-size: 25px;color: #00355A;font-weight: 100;
+}
+.grid5subtitle{padding-left: 60px;
+    color: #0590C8;font-size: 28px;width: 300px;}
+.grid5p{width: 250px;margin-left: 60px;font-size: 25px !important;font-weight: 100;color: #00355A;}
+#bgpic{margin-top: -230px;}
+.slidesupportrespo{display: none !important;}
+
+/*----------------------------------fourthslide 1024---------------------------------*/
+
+@media screen and (max-width:1024px) {
+
+    #fourthdiv{width: 1220px !important;}
+    .grid4subtitle{font-size: 1.8rem !important;padding-left: 60px !important;}
+    .grid4p{font-size: 1.6rem;}
+    #grid4p3{margin-left: 80px !important;}
+    #grid4p4{margin-left: 75px !important;}
+    #robotsbutton{font-size: 1.4rem;margin-bottom: 100px !important;margin-top: 40px !important;}
+
+/*--------------------solution support----------------------------*/
+.slidesupport{width: 1220px !important;}
+#fifthdivtitle{font-size: 3.5rem !important;}
+.grid5p{font-size:28px !important;}
+.grid5subtitle{font-size: 2.5rem !important;}
+}
+
+/*----------------------------------fourthslide 768---------------------------------*/
+
+@media screen and (max-width:769px) {
+    #fourthdivtitle{font-size: 5.2rem !important;}
+    .grid4subtitle{font-size: 2.2rem !important;padding-left: 300px !important;
+        width: 600px !important;text-align: left;}
+    .grid4p{font-size: 2.1rem;padding-left: 50px !important;}
+    #grid4p3{margin-left: 70px !important;}
+    #grid4p4{margin-left: 70px !important;}
+    #subt4{margin-left: -180px !important;}
+    #robotsbutton{font-size: 2rem;width: 700px !important;}
+
+/*--------------------solution support----------------------------*/
+.slidesupport{width: 1220px !important;}
+#fifthdivtitle{font-size: 3.5rem !important;}
+.grid5p{font-size:28px !important;}
+.grid5subtitle{font-size: 2.5rem !important;}
+}
+
+/*----------------------------------fourthslide 425---------------------------------*/
+
+@media screen and (max-width:426px) {
+#fourthdivrespo{display: contents !important;}
+#fourthdiv{display: none !important;}
+.bgsensing{background:url(https://www.bostondynamics.com/themes/custom/isovera/images/solution-features-background.png) !important;
+    width: 1220px;
+}
+
+.grid4img2r, .grid4imgr{border-radius: 50px !important;margin-top: 80px !important;}
+.grid4img2r{margin-left: 0px;}
+.grid4imgr{margin-left: 20px;}
+#fourthslidegridr{width: 1225px;
+    padding-top: 110px;
+}
+    #fourthdivtitler{font-size: 7.6rem !important;color: white;padding-top: 150px; font-family:  'Roboto', sans-serif !important;
+        font-weight: 100;letter-spacing: 4px;}
+    .grid4subtitle{font-size: 4.2rem !important;padding-left: 400px !important;font-weight: bold !important;
+        width: 1200px !important;text-align: left;padding-top:100px;padding-bottom: 70px !important;}
+    .grid4p{font-size: 3.3rem;padding-left: 150px !important;width: 900px !important;}
+    #grid4p3{margin-left: 70px !important;}
+    #grid4p4{margin-left: 70px !important;}
+    #subt4{margin-left: -180px !important;}
+    #robotsbutton{font-size: 5rem;width: 1210px !important;padding: 20px;margin-top: 150px !important;margin-bottom: 150px !important;}
+    .sensinggrid{margin-top: -10px !important;}
+
+/*--------------------solution support----------------------------*/
+.slidesupport{display: none !important;}
+.slidesupportrespo{display: contents !important;}
+.slidesupportrespo{width: 1220px !important;}
+#fifthdivtitle{font-size: 5.1rem !important;padding-top: 250px;width: 1000px;padding-left: 300px;}
+.grid5p{font-size:65px !important;width: 1050px;}
+.grid5subtitle{font-size: 4rem !important;width: 1200px;}
+.grid5img{height: 300px;margin: 50px;}
+
+
+}

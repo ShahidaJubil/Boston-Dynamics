@@ -1,0 +1,107 @@
+#autosoldiv{background:url(https://www.bostondynamics.com/themes/custom/isovera/images/solution-features-background.png)}
+#autosolslidegrid{background-color: white;
+    margin: 60px;
+    border-top-left-radius:13px;
+    border-top-right-radius:13px;
+    border-bottom-left-radius:13px;
+    border-bottom-right-radius:13px;
+    width: 1130px;padding-top: 15px !important;
+}
+.autosolgriditem{box-shadow: none !important;}
+.autosolgridimg, .autosolgridimg2{width: 520px;
+    border-top-left-radius:13px;
+    border-top-right-radius:13px;
+    border-bottom-left-radius:13px;
+    border-bottom-right-radius:13px;
+}
+#autosoldivtitle{color: white;padding-top: 50px; font-family:  'Roboto', sans-serif !important;
+    font-weight: 100;font-size: 50px;letter-spacing: 4px;
+}
+.autosolgridsubtitle{color: #00355A;margin-left: -220px;font-weight: 900 !important;font-size: 20px;
+        padding-top: 20px;
+}
+.autosolgridp{color: #00355A;width: 380px !important;font-size: 18px;
+        text-align: left;margin-left: 70px;
+        padding-bottom: 60px;
+}
+#autosolgridp2{padding-left: 8px !important;}
+.autosolgridimg2{margin-left: -20px;}
+.autosolgridimg{margin-left: 20px;}
+#autorobotsbutton{color: white;border:2px solid white !important;
+    font-size: 17px;
+    border-radius: 8px;
+    margin-bottom: 70px;
+    width: 350px;
+ }
+ #autorobotsbutton:hover{background-color: white;color: #335D7B;}
+ #autosolgridp2{margin-left: 60px;width: 380px;}
+ #autosolgridsubtitle2{margin-left: -210px !important;}
+ #autosolgridp2{margin-left: 50px !important;}
+ #autosolgridp3{margin-left: 75px !important;}
+ #subtauto{margin-left: -170px !important;}
+ #autosolgridsubtitle3{padding-left: 100px;}
+#autosoldivrespo{display: none !important;}
+
+ /*----------------------------------fourthslide 1024---------------------------------*/
+
+@media screen and (max-width:1024px) {
+
+    #autosoldiv{width: 1220px !important;}
+    .autosolgridsubtitle{font-size: 1.8rem !important;padding-left: 60px !important;}
+    .autosolgridp{font-size: 1.6rem;}
+    #autosolgridp3{margin-left: 80px !important;}
+    #autosolgridp4{margin-left: 75px !important;}
+    #autorobotsbutton{font-size: 1.4rem;margin-bottom: 100px !important;margin-top: 40px !important;}
+    #autosolgridsubtitle3{padding-left:180px !important ;}
+}
+
+/*----------------------------------fourthslide 768---------------------------------*/
+
+@media screen and (max-width:769px) {
+    #autosoldivtitle{font-size: 5.2rem !important;}
+    .autosolgridsubtitle{font-size: 2.2rem !important;padding-left: 340px !important;
+        width: 640px !important;text-align: left;}
+    .autosolgridp{font-size: 2.1rem;padding-left: 50px !important;}
+    #autosolgridp3{margin-left: 70px !important;}
+    #autosolgridp4{margin-left: 70px !important;}
+    #autosolsubt4{margin-left: -180px !important;}
+    #autorobotsbutton{font-size: 2rem;width: 700px !important;}
+    #autosolgridsubtitle3{padding-left:340px !important ;}
+    #autosolgridsubtitle2{margin-left: -280px !important;}
+    #subtauto{margin-left: -220px !important;}
+}
+
+/*----------------------------------fourthslide 425---------------------------------*/
+
+@media screen and (max-width:426px) {
+#autosoldivrespo{display: contents !important;}
+#autosoldiv{display: none !important;}
+.bgsensing{background:url(https://www.bostondynamics.com/themes/custom/isovera/images/solution-features-background.png) !important;
+    width: 1220px;
+}
+
+.autosolgridimg2r, .autosolgridimgr{border-radius: 50px !important;margin-top: 80px !important;}
+.autosolgridimg2r{margin-left: 0px;}
+.autosolgridimgr{margin-left: 20px;}
+#autosolslidegridr{width: 1225px !important;
+    padding-top: 110px !important;
+}
+    #autosoldivtitler{font-size: 7.6rem !important;color: white !important;padding-top: 150px !important; font-family:  'Roboto', sans-serif !important;
+        font-weight: 100;letter-spacing: 4px;}
+    .autosolgridsubtitle{font-size: 4.2rem !important;padding-left: 440px !important;font-weight: bold !important;
+        width: 1200px !important;text-align: left;padding-top:100px;padding-bottom: 50px !important;}
+    .autosolgridp{font-size: 3.3rem;padding-left: 150px !important;width: 900px !important;}
+    #autosolgridp3{margin-left: 70px !important;}
+    #autosolgridp4{margin-left: 70px !important;}
+    #autosolsubt{margin-left: -180px !important;}
+    #autorobotsbutton{font-size: 5rem;width: 1210px !important;padding: 20px;margin-top: 150px !important;margin-bottom: 150px !important;}
+    .sensinggrid{margin-top: -10px !important;}
+
+    #autosolgridsubtitle3{padding-left:440px !important ;}
+    #autosolgridp2{margin-left: 150px !important;}
+    #subtauto{margin-left: -220px !important;}
+
+    #autop4{padding-bottom: 250px !important;}
+
+}
+

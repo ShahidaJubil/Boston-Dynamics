@@ -1,0 +1,85 @@
+#cardh1{color: #00355A;font-weight: 100;   font-family:  'Roboto', sans-serif !important;font-size: 40px;letter-spacing: 2px;}
+#cardh3{color: #00355A;padding-bottom: 50px;font-weight: 600;}
+#cardtitle, #cardp{text-align: left;padding-left: 50px;}
+#cardtitle{font-size: 30px;font-weight:900 !important;color:#0590C8;padding-top: 50px;}
+#cardp{font-size: 18px;width: 500px;padding-right: 50px;color: #00355A;padding-top: 20px;      
+}
+#card{box-shadow:5px 5px 10px 0px  #909599;margin-bottom: 50px;
+    border-top-left-radius:20px !important;
+    border-top-right-radius:20px;
+    border-bottom-left-radius:20px !important;
+    border-bottom-right-radius:20px !important;
+    background-color: white;
+}
+#cards{background-color: #f7f7f7;padding: 80px;}
+#singlegrid{box-shadow: none !important;border-bottom-right-radius:20px !important;border-top-right-radius:20px;border-top-left-radius:20px !important;border-bottom-left-radius:20px !important;}
+#cardimg{margin:-8px;margin-right: -58px;border-top-right-radius:20px;border-bottom-right-radius:20px;
+        width: 570px;
+}
+.cardimgenergy{border-top-left-radius:20px;border-bottom-left-radius:20px;margin:-8px;margin-left: -24px;}
+#cardsrespo{display: none !important;}
+
+/*-------------------------------------div 4 --3 imgs-------------------------------*/
+#div4grid{box-shadow: none !important;margin-bottom: 80px;}
+#div4title{margin: 60px !important;font-size: 40px;font-weight: 400;font-family:  'Roboto', sans-serif !important;color: #00355A;}
+#div4img1{padding-left: 150px;max-width: 700px;}
+#div4img3{padding-right: 150px;max-width: 700px;}
+
+
+/*----------------------------------Secondslide 1024---------------------------------*/
+
+@media screen and (max-width:1024px) {
+    #cards{width: 1220px !important;}
+    #cardh3{font-size: 24px !important;
+    margin-top:-5px !important}
+/*-------------------------------div 4 -------------------*/
+    #div4title{margin-left: 250px !important;font-size: 48px !important;}
+    #div4img1,  #div4img2, #div4img3{height: 130px !important;}
+    #div4img1{margin-left: 100px;}
+    #div4img2{margin-left: 280px;}
+    #div4img3{margin-left: -350px;margin-top: 200px !important;}
+}
+
+/*----------------------------------Secondslide 768---------------------------------*/
+
+@media screen and (max-width:769px) {
+    #cards{width: 1220px !important;}
+    #cardh1{font-size: 60px !important;}
+    #cardh3{font-size: 30px !important;}
+    #cardtitle{font-size: 60px !important;margin-top: -40px !important;}
+    #cardp{font-size: 30px;width: 470px !important;padding-bottom: 80px !important;}
+/*-------------------------------div 4 -------------------*/
+    #div4title{margin-left: 250px !important;font-size: 62px !important;width: 800px !important;}
+    #div4img1,  #div4img2, #div4img3{height: 180px !important;}
+    #div4img1{margin-left: 280px;}
+    #div4{width: 1000px !important;}
+    #div4img2{margin-left: -220px;margin-top: 250px !important;}
+    #div4img3{margin-left: 0px;margin-top: 250px !important;margin-bottom: 50px !important;}
+}
+
+
+/*----------------------------------Secondslide 425---------------------------------*/
+
+@media screen and (max-width:426px) {
+    #cards{display: none !important;}
+    #cardsrespo{display:contents !important;
+    }
+    .respocardbg{  background-color: #f7f7f7 !important;width: 1230px !important;padding-bottom: 160px;}
+    #card{width: 1230px !important;box-shadow: none !important;margin-bottom: 150px;}
+    #cardh1{font-size: 120px !important;text-align: center !important;padding-top: 200px;}
+    #cardh3{font-size: 50px !important;width: 1200px !important;padding-bottom: 150px !important;}
+    #cardtitle{font-size: 100px !important;margin: 40px !important;padding-left: 140px !important;}
+    #cardp{font-size: 50px;width: 1170px !important;padding-left: 180px !important;padding-bottom: 200px !important;}
+    #cardimg, .cardimgenergy{min-width: 1230px !important;box-shadow:5px 20px 50px 0px  #909599;}
+    .cardimgenergy{margin-left: -8px !important;}
+    #cardimg{margin-left: -55px !important;}
+/*-------------------------------div 4 -------------------*/
+    #div4title{font-size: 122px !important;}
+    #div4img1,  #div4img2, #div4img3{height: 400px !important;max-width: 800px;}
+    #div4img1{margin-left: 180px;padding-top: 100px;}
+    #div4img2{margin-left: -90px;margin-top: 550px !important;}
+    #div4img3{margin-left: -360px;margin-top: 1000px !important;}
+}
+
+
+

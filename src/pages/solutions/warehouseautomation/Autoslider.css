@@ -1,0 +1,107 @@
+
+
+.autodoubleslash{margin-left: -1000px !important;
+padding-top: 50px !important;}
+#autoNationalGrid{padding-left: 400px;
+padding-right: 200px;
+padding-bottom:  100px;
+}
+.autoBeingabletohaveSpotdoinspections{
+color: #00355A;
+font-weight: lighter;
+font-size: 1.4rem;
+text-align: left;
+margin-left:-240px ;
+margin-top: -60px;
+width: 550px;
+}
+.autoDeanBerlin{color: #00355A;
+font-weight: lighter;
+font-size: 1.3rem;
+text-align: left;
+margin-left:-240px ;}
+#autonationalgridbold{
+    font-weight: 900;
+}
+#autobtnnationgrid{
+    margin-left: 100px;
+    margin-top: 30px;
+    color :#0590C8;
+    border-radius: 8px;
+    border: 2px solid #0590C8;;
+    min-width: 210px !important;
+    font-size: 16px;;
+}
+#autobtnnationgrid:hover{
+    background-color: #0590C8;
+    color: #fff;
+}
+/*Image adjust*/
+.autonationgridimag2main{transform: translate(130px) !important;
+    width: 150px;
+}
+#autosliderdiv{    background-color: #f1f1f1 !important; height: 500px !important;}
+
+
+#backarrow{color: #0590C8 !important;position: relative;left: -480px !important;top: 40px !important;
+    width: 40px !important;height: 40px !important;}
+#forarrow{color: #0590C8 !important;position: relative;left: 300px !important;top: -155px !important;
+        width: 40px;height: 40px;}
+#dot{color: #00355A !important;position: relative; left: -340px !important;top: 30px !important; }
+
+.autosliderrespo{display: none;}
+
+/*----------------------------------Thirdslide 1024---------------------------------*/
+
+@media screen and (max-width:1024px) {
+    #autosliderdiv{width: 1220px !important;height: 600px !important;}
+    .autoDeanBerlin{font-size: 1.5rem !important;transform: translate(-390px,160px) !important;}
+    .autoBeingabletohaveSpotdoinspections{font-size: 1.7rem;
+            margin-left: -250px !important;
+    }
+    
+    }
+    
+    /*----------------------------------Thirdslide 768---------------------------------*/
+    
+    @media screen and (max-width:769px) {
+        #autosliderdiv{height: 850px !important;}
+        .autoDeanBerlin{font-size: 2.1rem !important;transform: translate(-350px,360px) !important;}
+        .autoBeingabletohaveSpotdoinspections{font-size: 2.2rem;width: 480px !important;
+        }
+        .autonationgridimag2main{transform: translate(90px) !important;
+            width: 250px !important;
+        }
+        #autobtnnationgrid{font-size: 26px !important;min-width: 250px !important;border-width: 3px !important;
+            
+            line-height: 30px;}
+        }
+        #forarrow{top: -200px;}
+        #backarrow{top:200px}
+        #dot{ left: -240px;top: 110px;}
+    /*----------------------------------Thirdslide 425---------------------------------*/
+    
+    @media screen and (max-width:426px) {
+        .autodoubleslash{height: 300px !important;padding-left: 120px;}
+        #autosliderdiv{height: 2450px !important; background-color: #f1f1f1 !important;width: 1230px !important;}
+        .autoDeanBerlin{font-size: 3.6rem !important;transform: translate(40px,0px) !important;width: 800px !important;}
+        .autoBeingabletohaveSpotdoinspections{font-size: 3.6rem;width: 850px !important;padding-top: 20px;padding-left: 50px !important;
+        }
+        .autonationgridimag2mainr{transform: translate(-80px,40px) !important;z-index: 30 !important;
+            width: 500px !important;
+        }
+        #autobtnnationgrid{font-size: 44px !important;min-width: 250px !important;border-width: 3px !important;
+            margin-top: 200px;margin-left: -150px !important;padding: 40px;border-radius: 20px !important;
+            line-height: 30px;}
+    .autoslidernormal{display: none !important;}
+    .autosliderrespo{display: contents !important;}
+    #forarrowr{position: relative; top: 450px !important;left: 200px !important; color:  #0590C8  !important;width: 200px !important;height: 80px !important;}
+    #backarrowr{position: relative; top:1800px !important;left: -600px !important; color:  #0590C8  !important;width: 200px !important;height: 80px !important;}
+    #dotr{position: relative; left: -100px !important;top: 100px !important;color: #00355A !important;width: 200px !important;height: 40px !important;}
+    #autoNationalGridr{padding-left: 400px;
+        padding-right: 200px;
+        padding-bottom:  300px;
+        }
+        }
+    
+

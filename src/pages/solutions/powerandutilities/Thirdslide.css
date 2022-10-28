@@ -1,0 +1,101 @@
+
+
+.doubleslash{margin-left: -1000px !important;
+padding-top: 50px !important;}
+.Inthenearfuture{padding-left:10px;}
+#NationalGrid{padding-left: 400px;
+padding-right: 200px;
+padding-bottom:  100px;
+}
+.BeingabletohaveSpotdoinspections{
+color: #00355A;
+font-weight: lighter;
+font-size: 1.3rem;
+text-align: left;
+margin-left:-200px ;
+}
+.DeanBerlin{color: #00355A;
+font-weight: lighter;
+font-size: 1.3rem;
+text-align: left;
+margin-left:-200px ;}
+#nationalgridbold{
+    font-weight: 900;
+}
+#btnnationgrid{
+    margin-left: 100px;
+    margin-top: 50px;
+    color :#0590C8;
+    border-radius: 8px;
+    border: 1px solid #0590C8;;
+    min-width: 300px !important;
+    font-size: 20px;;
+}
+#btnnationgrid:hover{
+    background-color: #0590C8;
+    color: #fff;
+}
+/*Image adjust*/
+.nationgridimag2main{transform: translate(70px) !important;
+    min-width: 800px !important;height: 300px;
+}
+.slick-dots{bottom: 25px !important;}
+.sliderdiv{    background-color: #f1f1f1; height: 500px;}
+.slick-next{position: fixed;left: 1200px !important;}
+.slick-prev {
+    z-index: 10;
+    left: -150px;
+}
+.responsiveview{display: none !important;}
+
+/*----------------------------------Thirdslide 1024---------------------------------*/
+
+@media screen and (max-width:1024px) {
+.sliderdiv{width: 1220px !important;height: 600px !important;}
+.DeanBerlin{font-size: 1.5rem !important;transform: translate(-390px,160px) !important;}
+.BeingabletohaveSpotdoinspections{font-size: 1.7rem;
+        margin-left: -250px !important;
+}
+
+}
+
+/*----------------------------------Thirdslide 768---------------------------------*/
+
+@media screen and (max-width:769px) {
+    .sliderdiv{height: 850px !important;}
+    .DeanBerlin{font-size: 2.1rem !important;transform: translate(-390px,310px) !important;}
+    .BeingabletohaveSpotdoinspections{font-size: 2.2rem;width: 480px !important;
+    }
+    .nationgridimag2main{transform: translate(90px) !important;
+        width: 250px !important;
+    }
+    #btnnationgrid{font-size: 26px !important;min-width: 250px !important;border-width: 3px !important;
+        
+        line-height: 30px;}
+    }
+
+/*----------------------------------Thirdslide 425---------------------------------*/
+
+@media screen and (max-width:426px) {
+    .doubleslash{height: 300px !important;padding-left: 120px;}
+    .sliderdiv{height: 2500px !important;}
+    .DeanBerlin{font-size: 3.6rem !important;transform: translate(-50px,10px) !important;}
+    .BeingabletohaveSpotdoinspections{font-size: 3.6rem;width: 780px !important;padding-top: 200px;
+    }
+    .nationgridimag2main{transform: translate(-50px,100px) !important;
+        width: 500px !important;
+    }
+    #btnnationgrid{font-size: 46px !important;min-width: 250px !important;border-width: 3px !important;
+        margin-top: 200px;margin-left: -200px;padding: 40px;
+        line-height: 30px;}
+.normalview{display: none !important;}
+.responsiveview{display: contents !important;}
+
+    }
+
+
+
+
+
+
+

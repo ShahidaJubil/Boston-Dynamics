@@ -1,0 +1,37 @@
+.div6{background-image: url(https://www.bostondynamics.com/sites/default/files/2021-02/cta-background.jpg);
+margin-top: 20px;}
+#slide6but{margin-bottom: 40px;color: white;border:2px solid white;
+        margin-left: -450px;font-size: 20px;font-weight: 100;border-radius: 8px;
+}
+#slide6but:hover{background-color: white;color:#0590C8;}
+#slide6head{color: white;padding-top: 60px;
+    font-size: 40px;width: 750px;padding-left: 110px;
+}
+.div6respo{display: none !important;}
+/*----------------------------------sixthslide 1024---------------------------------*/
+
+@media screen and (max-width:1024px) {
+
+    .div6{width: 1220px !important;}
+    #slide6head{width: 600px !important;}
+    #slide6but{margin-left: -500px !important;}
+}
+/*----------------------------------Sixthslide 768---------------------------------*/
+
+@media screen and (max-width:769px) {
+
+    .div6{height: 520px !important;}
+    #slide6head{font-size: 3.8rem !important;width: 800px !important;}
+    #slide6but{margin-left: -300px !important;font-size: 2rem !important;margin-top: 50px !important;}
+    
+}
+/*----------------------------------Sixthslide 425---------------------------------
+
+@media screen and (max-width:426px) {
+.div6{display: none !important;}
+.div6respo{display: contents !important;}
+    .div6{height: 520px !important;}
+    #slide6head{font-size: 3.8rem !important;width: 800px !important;}
+    #slide6but{margin-left: -300px !important;font-size: 2rem !important;margin-top: 50px !important;}
+    .div6respo{background-image: url(https://www.bostondynamics.com/sites/default/files/2021-02/cta-background-darkened.jpg);}
+}*/

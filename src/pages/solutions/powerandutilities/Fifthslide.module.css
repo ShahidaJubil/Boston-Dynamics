@@ -1,0 +1,41 @@
+.cardcontent{background-color: #f1f1f1;}
+.resourcecard1{margin-left: 80px;box-shadow: none !important;}
+.resourcecard{margin-left: 10px;box-shadow: none !important;}
+.grid6item{box-shadow: none !important;}
+#card6sub{padding-top: 20px;padding-bottom: 10px;}
+#card6title{font-weight: 600;padding-bottom: 20px;}
+#card6p{font-size: 18px;width: 430px;}
+#ebookbutton{font-size: 17px;padding-bottom: 50px;font-weight:800;
+    margin-left:-280px !important
+}
+#card6sub,#card6title, #card6p{padding-left: 30px;}
+.blogbutton{font-size: 17px !important;padding-bottom: 75px !important;font-weight:800 !important;
+    margin-left:-330px !important;}
+.resourcetitle{color: #00355A;font-weight: 100;font-size: 50px;padding: 30px;font-family:  'Roboto', sans-serif !important;}
+.carddivrespo{display: none !important;}
+
+/*----------------------------------firstslide 1024---------------------------------*/
+
+@media screen and (max-width:1024px) {
+    .carddiv{width:1220px;}
+    .resourcetitle{font-size: 4rem;}
+    #card6title{font-size:1.8rem !important;width: 450px !important;}
+    #card6p{font-size: 1.6rem !important;width: 450px !important;}
+    #ebookbutton{font-size: 1.6rem !important;padding-left: 70px !important;padding-bottom: 85px !important;}
+    .blogbutton{font-size: 1.6rem !important;padding-left: 40px !important;}
+}
+/*----------------------------------firstslide 425---------------------------------*/
+
+@media screen and (max-width:426px) {
+.carddiv{display: none !important;}
+.carddivrespo{display: contents !important;}
+    .carddivrespo{width:1220px !important;}
+    .resourcetitle{font-size: 8rem;margin-left: 300px;}
+    #card6sub{font-size: 3.2rem !important;margin: 60px !important;}
+    #card6title{font-size:4.3rem !important;width: 950px !important;margin-left: 60px;}
+    #card6p{font-size: 3.6rem !important;width: 950px !important;margin-left: 60px;}
+    #ebookbutton{font-size: 3.3rem !important;margin-left: -650px !important;padding-bottom: 85px !important;}
+    .blogbutton{font-size: 3.3rem !important;padding-left: 40px !important;}
+    .resourcecard1, .resourcecard{min-width: 1200px !important;margin: 15px !important;}
+}
+

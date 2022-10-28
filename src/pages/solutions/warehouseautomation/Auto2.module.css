@@ -1,0 +1,72 @@
+#autocardh1{color: #00355A;font-weight: 100;   font-family:  'Roboto', sans-serif !important;font-size: 40px;letter-spacing: 2px;}
+#autocardh3{color: #00355A;padding-bottom: 50px;font-weight: 600;margin-top: -5px;}
+#autocardtitle, #autocardp{text-align: left;padding-left: 50px;padding-top: 50px; font-family:  'Roboto', sans-serif !important;font-weight: 300 !important;}
+#autocardtitle{font-size: 30px !important;font-weight: 600;color:#0590C8;}
+#autocardp{font-size: 18px;width: 500px;padding-right: 50px;color: #00355A;margin-top: -30px !important;}
+#autocard{box-shadow:5px 5px 10px 0px  #909599;margin-bottom: 50px;
+    border-top-left-radius:20px !important;
+    border-top-right-radius:20px;
+    border-bottom-left-radius:20px !important;
+    border-bottom-right-radius:20px !important;
+    background-color: white;
+}
+#autocards{background-color: #f7f7f7;padding: 80px;}
+#singlegrid{box-shadow: none !important;border-bottom-right-radius:20px !important;border-top-right-radius:20px;border-top-left-radius:20px !important;border-bottom-left-radius:20px !important;}
+#autocardimg{margin:-8px;margin-right: -24px;border-top-right-radius:20px;border-bottom-right-radius:20px;}
+.autocardimgenergy{border-top-left-radius:20px;border-bottom-left-radius:20px;margin:-8px;margin-left: -24px;}
+#autocardsrespo{display:none !important;}
+
+/*----------------------------------Secondslide 1024---------------------------------*/
+
+@media screen and (max-width:1024px) {
+    #autocards{width: 1220px !important;}
+    #autocardh3{font-size: 24px !important;
+    margin-top:-5px !important}
+/*-------------------------------div 4 -------------------*/
+    #autodiv4title{margin-left: 250px !important;font-size: 48px !important;}
+    #autodiv4img1,  #autodiv4img2, #autodiv4img3{height: 130px !important;}
+    #autodiv4img1{margin-left: 100px;}
+    #autodiv4img2{margin-left: 280px;}
+    #autodiv4img3{margin-left: -350px;margin-top: 200px !important;}
+}
+
+/*----------------------------------Secondslide 768---------------------------------*/
+
+@media screen and (max-width:769px) {
+    #autocards{width: 1220px !important;}
+    #autocardh1{font-size: 60px !important;}
+    #autocardh3{font-size: 30px !important;}
+    #autocardtitle{font-size: 60px !important;margin-top: -40px !important;}
+    #autocardp{font-size: 30px;width: 470px !important;padding-bottom: 80px !important;}
+/*-------------------------------div 4 -------------------*/
+    #autodiv4title{margin-left: 250px !important;font-size: 62px !important;width: 800px !important;}
+    #autodiv4img1,  #autodiv4img2, #autodiv4img3{height: 180px !important;}
+    #autodiv4img1{margin-left: 280px;}
+    #autodiv4{width: 1000px !important;}
+    #autodiv4img2{margin-left: -220px;margin-top: 250px !important;}
+    #autodiv4img3{margin-left: 0px;margin-top: 250px !important;margin-bottom: 50px !important;}
+}
+
+
+/*----------------------------------Secondslide 425---------------------------------*/
+
+@media screen and (max-width:426px) {
+    #autocards{display: none !important;}
+    #autocardsrespo{display:contents !important;}
+    .respocardbg{  background-color: #f7f7f7 !important;width: 1230px !important;padding-bottom: 160px;}
+    #autocard{width: 1230px !important;box-shadow: none !important;margin-bottom: 150px;}
+    #autocardh1{font-size: 120px !important;text-align: center !important;padding-top: 200px;}
+    #autocardh3{font-size: 50px !important;width: 1200px !important;padding-bottom: 150px !important;}
+    #autocardtitle{font-size: 100px !important;margin: 40px !important;padding-left: 140px !important;}
+    #autocardp{font-size: 50px;width: 1170px !important;padding-left: 180px !important;padding-bottom: 200px !important;}
+    #autocardimg, .autocardimgenergy{min-width: 1230px !important;box-shadow:5px 20px 50px 0px  #909599;}
+    .autocardimgenergy{margin-left: -8px !important;}
+    #autocardimg{margin-left: -55px !important;}
+/*-------------------------------div 4 -------------------*/
+    #autodiv4title{font-size: 122px !important;}
+    #autodiv4img1,  #autodiv4img2, #autodiv4img3{height: 400px !important;max-width: 800px;}
+    #autodiv4img1{margin-left: 180px;padding-top: 100px;}
+    #autodiv4img2{margin-left: -90px;margin-top: 550px !important;}
+    #autodiv4img3{margin-left: -360px;margin-top: 1000px !important;}
+}
+
